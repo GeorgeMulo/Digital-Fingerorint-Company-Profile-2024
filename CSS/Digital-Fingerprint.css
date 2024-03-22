@@ -1,0 +1,130 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/Picture8.jpg"); 
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+.image-container h3 {
+    text-align: center;
+}
+.image-container img {
+text-align: center;
+    max-width: 200px;
+    height: auto;
+    margin: 0 20px;
+}
+
+.info-container {
+    max-width: 1200px;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.info-container .column {
+    flex: 15% 5% 25%;
+}
+
+.image-mover {
+    text-align: center;
+     padding: 20px;
+}
+
+.solutions-content{
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.digital-content{
+    max-width: 1200px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.banking-content{
+    max-width: 1200px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.contact-column {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+.contact-logo {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    text-align: center;
+    background: rgba(255, 254, 254, 0.938);
+    padding: 10px;
+    position:absolute="15px";
+    bottom: 0;
+    width: 100%;
+}
+
+.image-position {
+
+    text-align: center;
+}
+
+.progress {
+    transition: width 0.5s ease-in-out;
+    background-color: black;
+    border-radius: 20px;
+  }
+
+  .progress-bar{
+  }
